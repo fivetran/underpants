@@ -1,4 +1,4 @@
-package collections;
+package com.fivetran.collections;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;

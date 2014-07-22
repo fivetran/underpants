@@ -1,4 +1,4 @@
-package collections;
+package com.fivetran.collections;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;

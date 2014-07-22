@@ -1,4 +1,4 @@
-package collections;
+package com.fivetran.collections;
 
 import java.util.function.Supplier;
 
