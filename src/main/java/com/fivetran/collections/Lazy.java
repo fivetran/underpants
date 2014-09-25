@@ -13,11 +13,7 @@ public class Lazy<T> {
     public T get() {
         if (value == null) {
             synchronized (this) {
-                try {
-                    value = delegate.get();
-                } catch (Exception e) {
-                    throw new RuntimeException(e);
-                }
+                value = delegate.get();
             }
         }
 
