@@ -57,6 +57,20 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>aws-release</id>
+            <name>AWS Release Repository</name>
+            <url>s3://fivetran-maven/release</url>
+        </repository>
+
+        <repository>
+            <id>aws-snapshot</id>
+            <name>AWS Snapshot Repository</name>
+            <url>s3://fivetran-maven/snapshot</url>
+        </repository>
+    </repositories>
+
     <!-- Publish to s3 -->
     <distributionManagement>
         <repository>
